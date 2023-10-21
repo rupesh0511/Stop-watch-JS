@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 30%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2018/02/16/02/03/pocket-watch-3156771_640.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.timer{
+    font-size: 4rem;
+    color: white;
+    font-weight: bolder;
+    background-color: rgba(64, 60, 73, 0.7);
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+} 
+button{
+    width: 80px;
+    height: 40px;
+   margin: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
